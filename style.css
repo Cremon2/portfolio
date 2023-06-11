@@ -1,0 +1,126 @@
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+header h1 {
+  font-size: 32px;
+  margin: 0;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header nav li {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#about {
+  padding: 50px;
+  margin-top: 0;
+  margin-bottom: 150px;
+  background-color: #000000;
+  
+}
+
+#about h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
+}
+
+
+#about p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 230px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
+}
+
+section {
+  padding: 50px;
+  margin-top: 50px;
+}
+
+section h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 400px;
+}
+
+.grid-x .cell {
+  padding: 0;
+  text-align: center;
+}
+
+.grid-x .cell img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.grid-x .cell h3 {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#home {
+  background-color: #f2f2f2;
+  padding: 50px;
+  text-align: center;
+}
+
+#home h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.home {
+  margin-top: 30px;
+  margin-bottom: 450px;
+}
+
+.home h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin: 0 -8px -10px -10px;
+}
+
+footer p {
+  margin: 0;
+}
