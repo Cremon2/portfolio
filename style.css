@@ -41,7 +41,9 @@ header nav a {
 #menu-button {
   display: none; /* Hide the menu button by default */
 }
-
+.home {
+  margin-bottom: 100px;
+}
 /* About Section */
 #about {
   padding: 50px;
